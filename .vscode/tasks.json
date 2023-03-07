@@ -1,0 +1,22 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "Live Preview",
+			"workspacePath": "d:\\Code\\Code Institute\\terni-lapilli--toe",
+			"problemMatcher": [],
+			"label": "Live Preview: Run Server",
+			"promptOnClose": false,
+			"group": "none",
+			"dependsOn": [],
+			"isBackground": true
+		},
+		{
+			"type": "eslint",
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"label": "eslint: lint whole folder"
+		}
+	]
+}

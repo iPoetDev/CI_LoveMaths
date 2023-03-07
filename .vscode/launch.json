@@ -1,0 +1,96 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "firefox",
+      "request": "launch",
+      "reAttach": true,
+      "name": "Launch File",
+      "file": "${workspaceFolder}/index.html",
+      "firefoxExecutable": "C:\\Users\\Charles\\AppData\\Local\\Firefox Developer Edition\\firefox.exe",
+      "firefoxArgs": [],
+      "internalConsoleOptions": "openOnSessionStart",
+      "clearConsoleOnReload": false,
+      "pathMappings": [],
+      "preferences": {},
+      "reloadOnChange": {
+        "watch": "${workspaceFolder}/**/*.js",
+        "ignore": "**/node_modules/**"
+      },
+    },
+    {
+      "type": "vscode-edge-devtools.debug",
+      "request": "launch",
+      "name": "MS Edge: Dev",
+      "url": "http://127.0.01:3001",
+      // "url": "http://127.0.01:3000",
+      "webRoot": "${workspaceFolder}",
+      "vscode-edge-devtools.browserFlavor": "Dev",
+    },
+    {
+      "name": "Launch Edge",
+      "request": "launch",
+      "type": "msedge",
+      "url": "http://127.0.0.1:3001",
+      // "url": "http://127.0.01:3000",
+      "webRoot": "${workspaceFolder}",
+      "cleanUp": "onlyTab",
+      "cwd": "${workspaceFolder}",
+      "trace": true,
+      "smartStep": true,
+      "profileStartup": true,
+      "presentation": {
+        "hidden": false,
+        "group": "",
+        "order": 1
+      },
+      "internalConsoleOptions": "openOnSessionStart",
+      "outputCapture": "console",
+      "outFiles": [
+        "${workspaceFolder}/**/*.js",
+        "!**/node_modules/**"
+      ],
+      "inspectUri": null,
+      "includeLaunchArgs": true,
+      "includeDefaultArgs": true,
+      "enableContentValidation": true,
+      "browserLaunchLocation": null,
+      "address": "127.0.0.1",
+      // "debugServer": 4711
+      // "file": "${workspaceFolder}/index.html"
+      "useWebView": false,
+    },
+    {
+      "type": "firefox",
+      "request": "launch",
+      "reAttach": true,
+      "name": "FF: Preview: 127.0.0.1",
+      "url": "http://127.0.0.1:3000/",
+      // "url": "http://127.0.01:3001",
+      "firefoxExecutable": "C:\\Users\\Charles\\AppData\\Local\\Firefox Developer Edition\\firefox.exe",
+      "firefoxArgs": [],
+      "internalConsoleOptions": "openOnSessionStart",
+      "reloadOnChange": {
+        "watch": "${workspaceFolder}/**/*.js",
+        "ignore": "**/node_modules/**"
+      }
+    },
+    {
+      "type": "chrome",
+      "name": "Server: http://127.0.0.1:3001",
+      "request": "launch",
+      "url": "http://127.0.0.1:3001",
+      "internalConsoleOptions": "openOnSessionStart",
+    },
+    {
+      "type": "chrome",
+      "name": "Preview: http://127.0.0.1:3000/",
+      "request": "launch",
+      "url": "http://127.0.0.1:3000/",
+      "internalConsoleOptions": "openOnSessionStart",
+    }
+  ]
+}
