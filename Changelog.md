@@ -46,11 +46,21 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and adhere
 
 ---
 
-## Changelog: 2023.03.07 v.0.0.01.002
+## Changelog: 2023.03.07 v.0.0.01.002-004
 
 ### Added
 
--- Added: Script.js and function templates for the game.
+- Added: Script.js and function templates for the game.
+- Added: Webhint .hintrc (Chore)
+- Added DomContentLoaded eventListener for assignment of eventListeners to the 5 button.
+
+### Fixed
+
+- Fixed Null values for the if statement as `data-type` was missing from html. Added it in and now the console.dir(obj) is giving the correct values in browser and VScode.
+
+### Notes
+
+- Added a CodeClip.io of the working function. A good way to visual document the code, from com.
 
 ## Changelog: 2023.03.07 v.0.0.01.001
 
