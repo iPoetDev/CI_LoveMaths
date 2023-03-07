@@ -7,7 +7,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and adhere
 > - Modified, by incrementing and counting the index of commits on a daily basis
 > - (Major.Minor.Patch.CommitIndex) (By CJ)
 > - Header Formatting & Intents as below
-
+>
 > ## Changelog: v.major.minor.patch.commitindex 20yy.mm.dd
 >
 > ### `Added`  for new features
@@ -26,7 +26,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and adhere
 
 ---
 
-# Changelog: Project: LoveMaths
+## Changelog: Project: LoveMaths
 
 > **Template**
 >
@@ -46,6 +46,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and adhere
 
 ---
 
+## Changelog: 2023.03.07 v.0.0.01.002
+
+### Added
+
+-- Added: Script.js and function templates for the game.
+
 ## Changelog: 2023.03.07 v.0.0.01.001
 
 ### Added
@@ -55,12 +61,6 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and adhere
 - Added: style.css under `assets/styles/` for the LoveMaths game
 - Added: FontAwesome (v.5.7.2), with integrity and with CORS.
 - Added: Raleway-Righteous font from Google Fonts
-
-### Changed
-
-### Removed
-
-### Fixed
 
 ### ToDo
 
